@@ -219,3 +219,6 @@ __marimo__/
 
 # Datos locales del TFM (No subir a GitHub)
 data/
+
+# Credenciales privadas de la API
+credentials.json
