@@ -221,4 +221,4 @@ __marimo__/
 data/
 
 # Credenciales privadas de la API
-credentials.json
+credenciales_osky.json
