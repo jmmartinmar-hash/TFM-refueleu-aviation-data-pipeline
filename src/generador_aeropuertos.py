@@ -33,7 +33,7 @@ def genera_master_aeropuertos():
     df_master = df_master.dropna(subset=['ident']).drop_duplicates(subset=['ident'])
     
     # 6.Guardo el fichero Maestro Global de aeropuertos 
-    output_path = "master_aeropuertos.csv"
+    output_path = "src/master_aeropuertos.csv"
     df_master.to_csv(output_path, index=False, encoding="utf-8")
     
     print(f"✅ Creado el maestro global con {len(df_master)} aeropuertos comerciales.")

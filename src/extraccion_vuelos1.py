@@ -32,7 +32,7 @@ def extraccion_vuelos():
         return
 
     # --- Carga del nuevo Maestro  ---
-    master_aeropuertos = "master_aeropuertos.csv"
+    master_aeropuertos = "src/master_aeropuertos.csv"
     if not os.path.exists(master_aeropuertos):
         logging.error(f"❌ Error: No existe el maestro '{master_aeropuertos}'. Ejecuta generador_aeropuertos.py.")
         return
