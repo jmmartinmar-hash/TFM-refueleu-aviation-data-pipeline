@@ -220,5 +220,6 @@ __marimo__/
 # Datos locales del TFM (No subir a GitHub)
 data/
 
-# Credenciales privadas de la API
+# Credenciales privadas de las API
 credenciales_osky.json
+credenciales_gcp.json
